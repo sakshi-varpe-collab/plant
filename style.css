@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    height: 95%;
+    width: 90%;
+    /* background-color: brown;  */
+    padding: 1vw;
+}
+
+.navigation{
+    height: 5%;
+    width: 100%;
+    /* background-color: aqua;  */
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    padding:1vw 0 0 4vw ;
+}
+
+.left i{
+    font-size: 20px;
+    font-weight: 500;
+    color: green;
+}
+
+
+.left h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+}
+.mid{
+    height: 100%;
+    width: 40%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mid div a{
+    color: green;
+    font-size: 15px;
+    font-weight: 600;
+}
+.mid a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.right{
+    height: 100%;
+    width: 30%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right i{
+    padding: 0 2vw 0vw .1vw;
+    font-weight: 600;
+    color: green;
+}
+
+.first{
+    height: 50%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+}
+
+.content{
+    height: 30%;
+    width:50%;
+    /* background-color: gray;  */
+}
+
+.content h4{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 3vw 0 2vw 4vw;
+}
+
+.content h1{
+    font-size: 45px;
+    font-weight: 800;
+    padding: 0 0 2vw 4vw;
+    line-height: 1.6vw;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 4vw;
+    color: gray;
+}
+
+.content .but{
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+}
+
+.content div button{
+    padding:.9vw;
+    margin-right: .4vw;
+    width: 10vw;
+}
+
+.image{
+    height:350px;
+    width: 350px;
+    /* background-color:crimson; */
+    background-image: url(download\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 8vw;
+    border: 1vw solid rgb(236, 224, 224);
+}
+
+.second{
+    height: 65%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+}
+
+.big-tree{
+    height: 50%;
+    width: 30%;
+    background-color:green; 
+    display: flex;
+    border-radius: 10px;
+    padding: 3vw 1vw 3vw 6vw;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    position: relative;
+}
+
+.big-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: chocolate; */ 
+    display: flex;
+    justify-content: center;
+}
+
+.big-left img{
+    position: absolute;
+    left:1vw;
+    bottom: .5vw;
+}
+
+.big-right{
+    height: 50%;
+    width: 50%;
+    /* background-color: yellow; */
+    /* padding: .5vw; */
+}
+
+.big-right h1{
+    padding-bottom: .7vw;
+}
+
+.big-right .add{
+    padding: .5vw;
+    color: green;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+}
+
+.small-tree{
+    height: 50%;
+    width: 70%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.first-small-tree{
+    height: 70%;
+    width: 30%;
+    /* background-color: pink; */
+    display: flex;
+    border-radius: 10px;
+    margin-right:1vw ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+ .first-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    background-image: url(download.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.first-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding: 1.5vw 0vw 1vw 1vw;
+}
+
+.first-right h1{
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: .5vw;
+}
+
+.first-right p{
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+    padding-bottom: .5vw;
+}
+
+.first-right h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.second-small-tree{
+    height: 70%;
+    width: 30%;
+    /* background-color: lightgreen; */
+    display: flex;
+    border-radius: 10px;
+    margin-right: 1vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.second-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: lime; */
+    display: flex;
+    background-image: url(download\ \(1\)-severin.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.second-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: crimson; */
+    padding: 1.5vw 0vw 1vw 1vw;
+}
+
+.second-right h1{
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: .5vw;
+}
+
+.second-right p{
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+    padding-bottom: .5vw;
+}
+
+.second-right h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.third-small-tree{
+    height: 70%;
+    width: 30%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.third-left{
+    height: 100%;
+    width:50%;
+    /* background-color: yellow; */
+    background-image: url(download\ \(1\)\ cocktus.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.third-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: darkgoldenrod; */
+    padding: 1.5vw 0vw 1vw 1vw;
+}
+
+.third-right h1{
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: .5vw;
+}
+
+.third-right p{
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+    padding-bottom: .5vw;
+}
+
+.third-right h2{
+    font-size: 15px;
+    font-weight: 700;
+}
